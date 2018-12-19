@@ -1,0 +1,25 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "thezone-global-navigation-meagmenu-client-side-solution",
+        "id": "bc329955-b3d9-426f-ba1b-4377655f6d2c",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "features": [{
+            "title": "Application Extension - Deployment of custom action.",
+            "description": "Deploys a custom action with ClientSideComponentId association",
+            "id": "3bbf8ad4-46ed-4637-93d4-bbcd81f1ac62",
+            "version": "1.0.0.0",
+            "assets": {
+                "elementManifests": [
+                    "elements.xml"
+                ]
+            }
+        }]
+    },
+    "paths": {
+        "zippedPackage": "solution/thezone-global-navigation-meagmenu.sppkg"
+    }
+}

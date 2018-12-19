@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "app-the-zone-global-navigation-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appTheZoneGlobalNavigation/AppTheZoneGlobalNavigationApplicationCustomizer.js",
+          "manifest": "./src/extensions/appTheZoneGlobalNavigation/AppTheZoneGlobalNavigationApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppTheZoneGlobalNavigationApplicationCustomizerStrings": "lib/extensions/appTheZoneGlobalNavigation/loc/{locale}.js"
+  }
+}

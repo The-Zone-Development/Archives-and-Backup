@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppTheZoneGlobalNavigation"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="b123a773-67c2-4106-817f-98f82436245c"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;Top Placeholder area&quot;}">
+    </CustomAction>
+</Elements>

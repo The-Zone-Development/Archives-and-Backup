@@ -1,0 +1,13 @@
+@import 'Common';
+
+.container {
+    
+    cursor: pointer;
+
+    @include desktop {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position:fixed;
+        z-index:5000;
+    }
+}
